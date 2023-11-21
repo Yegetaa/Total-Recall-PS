@@ -175,16 +175,63 @@ console.log(myArray);
 //reverse using .reverse()
 //this would mutate (i.e., change the elements of the 
 //array if I hadn't created a new array)
-myArray2 = reverse(myArray)
+myArray2 = myArray.reverse(myArray)
 console.log(myArray2);
 
 
 // F. Biggie Smalls 
+let integer = 6
+if (integer >= 100) {
+    console.log("Big Number");
+} else {
+    console.log("Little Number");
+}
 
 // G. Money in the Middle
+if (integer > 10) {
+    console.log("Big Number");
+} else if (integer < 5) {
+    console.log("Little Number");
+} else {
+    console.log("Monkey");
+}
 
 // H. What's in Your Closet?
+const kristynsCloset = [
+    "left shoe",
+    "cowboy boots",
+    "right sock",
+    "Per Scholas hoodie",
+    "green pants",
+    "yellow knit hat",
+    "marshmallow peeps"
+  ];
 
+  const thomsCloset = [
+    [
+      // These are Thom's shirts
+      "grey button-up",
+      "dark grey button-up",
+      "light blue button-up",
+      "blue button-up",
+    ],[
+      // These are Thom's pants
+      "grey jeans",
+      "jeans",
+      "PJs"
+    ],[
+      // Thom's accessories
+      "wool mittens",
+      "wool scarf",
+      "raybans"
+    ]
+  ];
+
+
+
+
+
+  
 // Part 4: Functions 
 // A. printGreeting 
 // B. printCool 
