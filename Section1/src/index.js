@@ -29,6 +29,7 @@ const c = 57;
 const d = 16;
 const e = "Kevin";
 
+
 console.log(a < b);
 console.log( c > d);
 console.log("Name" == "Name");
@@ -80,10 +81,23 @@ if (age >= 16) {
 //  }
 
 //B. Get Even 
-for (let i = 1; i <= 100; i++ ) {
-    if (i % 2 === 0) {
-        console.log(`${i} is an even number.`);
-    } else {
-        console.log(i);    
+// for (let i = 1; i <= 100; i++ ) {
+//     if (i % 2 === 0) {
+//         console.log(`${i} is an even number.`);
+//     } else {
+//         console.log(i);    
+//     }
+//      }
+
+//C. Give me five
+
+for (let i = 1; i <= 100; i++) {
+    if (i % 5 === 0 && i % 3 === 0) {
+        console.log(`I found a ${i}. High Five! I found a ${i}. Three is a crowd.`);
+    if (i % 5 === 0) {
+        console.log(`I found a ${i}. High Five!`);
+    } else if (i % 3 === 0){
+        console.log(`I found a ${i}. Three is a crowd.`);
     }
-     }
+}
+}
