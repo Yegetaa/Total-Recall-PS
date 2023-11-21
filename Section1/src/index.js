@@ -139,4 +139,66 @@ const quotes = [
     "I will prepare and some day my chance will come."
 ]
 
-//
+// C. Accessing elements 
+const randomThings = [1, 10, "Hello", true]
+//accessing the 1st element 
+console.log(randomThings[0]);
+//change the value of "Hello" to "World"
+randomThings[2] = "World"
+console.log(randomThings);
+
+// D. Change values 
+const ourClass = ["Salty", "Zoom", "Sardine", "Slack", "Github"];
+// access the third element 
+console.log(ourClass[2]);
+// change the value of "Github" to "Octocat"
+ourClass[4] = "Octocat"
+// add an element called "Cloud City"
+ourClass.push("Cloud City")
+console.log(ourClass);
+
+// E. Mix it up (don't use .splice())
+const myArray = [5, 10, 500, 20]
+//Adding "Aegon"  and another string 
+//to the end of the array
+myArray.push("Aegon", "Iron")
+console.log(myArray);
+// Remove the 5
+myArray.shift(0)
+console.log(myArray);
+// Add "Bob Marley" to the start
+myArray.unshift("Bob Marley")
+console.log(myArray);
+//Remove the last string
+myArray.pop()
+console.log(myArray);
+//reverse using .reverse()
+//this would mutate (i.e., change the elements of the 
+//array if I hadn't created a new array)
+myArray2 = reverse(myArray)
+console.log(myArray2);
+
+
+// F. Biggie Smalls 
+
+// G. Money in the Middle
+
+// H. What's in Your Closet?
+
+// Part 4: Functions 
+// A. printGreeting 
+// B. printCool 
+
+//Part 5: Objects 
+
+// A. Make a user object 
+const user = {
+    name: "Jane Doe",
+    email: "janedoe@email.com",
+    age: 30,
+    purchased: []
+}
+
+// B. Update the User
+
+//C. Adding keys and Values 
