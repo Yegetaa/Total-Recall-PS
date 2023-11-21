@@ -101,3 +101,18 @@ for (let i = 1; i <= 100; i++) {
     }
 }
 }
+
+//D. Savings account 
+let bank_account = 0 
+for (let i = 0; i <= 10; i++ ) {
+   bank_account = bank_account + i
+}
+console.log(`There is $${bank_account} in your bank account`);    
+
+let bank_account2 = 0
+console.log(bank_account2);
+for (let i = 0; i <= 100; i++ ) {
+    bank_account2 = (bank_account2 + (i*2)) 
+}
+console.log(`There is $${bank_account2} in your bank account`);    
+ 
