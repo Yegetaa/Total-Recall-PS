@@ -1,6 +1,6 @@
-// Variables and Data Types 
+// Part 1: Variables and Data Types 
 
-// Exercise A. Variables 
+// Exercise A: Variables 
 
 const myName = "Yegeta Eshetu"
 let favoriteLanguage = "Python"
@@ -10,7 +10,7 @@ favoriteLanguage = newFavoriteLanguage
 console.log(favoriteLanguage);
 console.log(`My name is ${myName} and my favorite programming language is ${favoriteLanguage}.`);
 
-// Exercise B. Strings 
+// Exercise B: Strings 
 
 let firstVariable = "Hello World"
 firstVariable = 10
@@ -21,7 +21,7 @@ console.log(firstVariable);
 let yourName = "Yegeta"
 console.log(`Hello, my name is ${yourName}.`);
 
-// Exercise C. Booleans 
+// Exercise C: Booleans 
 
 const a = 4;
 const b = 53;
@@ -43,7 +43,7 @@ console.log(a <= b <= c);
 console.log((a * a) == d);
 console.log(48 == "48");
 
-//D. The Farm 
+// Exercise D. The Farm 
 
 let animal = "sheep"
 if (animal === "cow") {
@@ -52,7 +52,7 @@ if (animal === "cow") {
     console.log("Hey! You're not a cow.");
 }
 
-// E. Driver's Ed 
+// Exercise E. Driver's Ed 
 
 let age = 30
 if (age >= 16) {
@@ -60,3 +60,22 @@ if (age >= 16) {
 } else {
     console.log("Sorry, you're too young");
 }
+
+// Part 2: Loops 
+
+//A. The basics 
+
+// for (let i = 0; i <= 10; i++ ) {
+//    console.log(i);    
+// }
+
+// for (let i = 0; i <= 400; i++ ) {
+//     if (i >=10) {
+//         console.log(i);    
+//     }
+//  }
+
+ for (let i = 12; i <= 4000; i+=3 ) {
+        console.log(i);    
+ }
+
