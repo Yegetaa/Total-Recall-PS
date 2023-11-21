@@ -116,3 +116,27 @@ for (let i = 0; i <= 100; i++ ) {
 }
 console.log(`There is $${bank_account2} in your bank account`);    
  
+// Part 3: Arrays and Control Flow 
+
+/*  A. Talk about it in your group:
+
+Q. What are the things in an array called?
+A. Each item in an array is called an element,
+and each element is accessed by its numerical index.
+
+Q. Do Arrays guarantee those things will be in order?
+A. Yes. This is why they are iterate by character.
+
+What real-life thing could you model with an array?
+Any ordered lists such as books at a library, 
+contact books, would fit well in an array. 
+*/
+
+// B. Easy does it 
+const quotes = [
+    "Peace of mind is not the absence of conflict from life, but the ability to cope with it.",
+    "Every adversity, every failure, every heartache carries with it the seed of an equal or greater benefit.",
+    "I will prepare and some day my chance will come."
+]
+
+//
