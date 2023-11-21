@@ -42,3 +42,12 @@ console.log(e === "Kevin");
 console.log(a <= b <= c);
 console.log((a * a) == d);
 console.log(48 == "48");
+
+//D. The Farm 
+
+let animal = "sheep"
+if (animal === "cow") {
+    console.log("mooooo");
+} else{
+    console.log("Hey! You're not a cow.");
+}
