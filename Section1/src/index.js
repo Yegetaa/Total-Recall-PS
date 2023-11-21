@@ -227,11 +227,22 @@ const kristynsCloset = [
     ]
   ];
 
+// log the sentence "Kristyn is rocking that " + 
+//the third item in Kristyn's closet + " today!".
+  console.log(`Kristyn is rocking that ${kristynsCloset[2]} today.`);
+// Add "raybans" to Kristyn's closet after "yellow knit hat".
+kristynsCloset.splice(6,0,"Raybans")
+//modify yellow to read "stained knit hat"
+kristynsCloset[5] =  "stained knit hat"
+console.log(kristynsCloset);
 
+//log "Thom is looking fierce in a grey button-up, jeans and wool scarf!"
+console.log(`Thom is looking fierce in a ${thomsCloset[0][0]}, ${thomsCloset[1][1]}, and a ${thomsCloset[2][1]}.`);
 
+//Modify the name of Thom's PJ pants to Footie Pajamas.
+thomsCloset[1][2] = "Footie Pajamas"
+console.log(thomsCloset);
 
-
-  
 // Part 4: Functions 
 // A. printGreeting 
 // B. printCool 
