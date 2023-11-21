@@ -258,5 +258,21 @@ const user = {
 }
 
 // B. Update the User
+const user2 = {... user, email: "janedoe2@email.com"}
+const user3 = {... user, age: age++}
 
 //C. Adding keys and Values 
+
+// D. Shopaholic 
+
+// E. Object within Object 
+
+user.friend = {
+    name: "Grace Hopper",
+    age: 85
+}
+
+// F. Loops 
+
+// g. Functions can operate on objects
+
